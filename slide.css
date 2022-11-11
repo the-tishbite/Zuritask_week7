@@ -70,10 +70,14 @@ img {
   background-color: #717171;
 }
 
-.f-info .fp_text {
+p {
   font-size: 15px;
   color: #454266;
   font-variant: small-caps;
+}
+
+span {
+  color: tomato;
 }
 
 .fade {
