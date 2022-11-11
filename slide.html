@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slideshow/Carousel</title>
+    <link rel="stylesheet" href="slide.css" />
+    <script src="slide.js"></script>
+  </head>
+  <body>
+    <section>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numberText">1</div>
+          <img src="Elephant.jpg" alt="An Elephant" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numberText">2</div>
+          <img src="Blueman.jpg" alt="A silhouette " style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numberText">3</div>
+          <img
+            src="Lightpaintingd.jpg"
+            alt="Light painting in the desert."
+            style="width: 100%"
+          />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numberText">4</div>
+          <img
+            src="Jetsmoke.jpg"
+            alt="Jets with smoke in air."
+            style="width: 100%"
+          />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numberText">5</div>
+          <img
+            src="Celebrationprops.jpg"
+            alt="Props for celebration."
+            style="width: 100%"
+          />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numberText">6</div>
+          <img src="Love.jpg" alt="Love." style="width: 100%" />
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+      <br />
+
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+      </div>
+
+      <p class="f-info" style="text-align: center">
+        Click on the <span>first little circle above</span> to start going
+        through the slideshow.
+      </p>
+
+      <p style="text-align: center">
+        Then go through them by navigating with the arrow keys on both sides of
+        the image.
+      </p>
+    </section>
+  </body>
+</html>
